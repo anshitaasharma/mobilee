@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meeting Scheduler"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date (YYYY-MM-DD)"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Time (HH:MM)"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/editTextAgenda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Meeting Agenda"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonAddMeeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Meeting Agenda"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonViewMeetings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Meetings"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
